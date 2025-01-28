@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New tab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="https://github.com/" class="white-bg">
+          <img src="./icons/gh.svg" alt="GitHub" />
+        </a>
+
+        <a href="https://vercel.com/" class="black-bg">
+          <img src="./icons/vercel.svg" alt="Vercel" />
+        </a>
+
+        <a href="https://namecheap.com/" class="black-bg">
+          <img src="./icons/namecheap.png" alt="NameCheap" />
+        </a>
+      </div>
+
+      <div id="weather"></div>
+    </header>
+
+    <main>
+      <div id="clock">
+        <div id="date"></div>
+        <div id="time"></div>
+      </div>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
