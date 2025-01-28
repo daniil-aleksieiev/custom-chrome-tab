@@ -8,12 +8,16 @@ Tired of the boring default new tab page in Chrome? 😴 Say hello to your very 
 
 No rocket science here - just follow these simple steps, and you’re good to go:
 
-1. **Create a config.js file** in the root directory of your project. Inside, define your settings like this:`
+1. **Create a config.js file** in the root directory of your project. Inside, define your settings like this:
+
+```
 const config = {
   IMAGE_API_KEY: 'YOUR-API-KEY',
   WEATHER_CITY: 'YOUR-CITY',
   WEATHER_API_KEY: 'YOUR-API-KEY',
-};`
+};
+```
+
 2. **Open Chrome** and head over to the Extensions settings page: [chrome://extensions/](chrome://extensions/, 'chrome://extensions/')
 3. **Turn on Developer Mode** 🧑‍💻 (you’ll find a toggle in the top right corner).
 4. **Click “Load unpacked”** and select the folder where your project lives.
